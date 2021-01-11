@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(230, 223, 165);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.incorrect::after {
+    content: 'password is incorrect';
+    color: rgb(214, 127, 127);
+}
+
+.incorrect-username::after {
+    content: 'select another username';
+    color: rgb(214, 127, 127);
+}
+
+.width {
+    max-width: 500px;
+    display: grid;
+}
+
+.new-todo {
+    display: grid;
+}
+
+.done h3, .done p {
+    text-decoration: line-through;
+}
+
+.save {
+    display: none;
+}
+
+.add {
+    display: block;
+}
+
+.hello {
+    list-style-type: none;
+    background-color: rgb(243, 243, 247);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hello p {
+    color: rgb(85, 85, 85);
+    padding-left: 5px;
+
+    padding-bottom: 5px;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.hello:last-child {
+    margin-bottom: 30px;
+}
